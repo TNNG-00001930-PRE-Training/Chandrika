@@ -1,0 +1,5 @@
+string = "Python is a programming language"
+n = string.split()
+for i in n:
+    if len(i)%2 == 0:
+        print(i)
