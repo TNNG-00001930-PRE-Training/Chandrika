@@ -1,0 +1,6 @@
+x = input("Enter a sequence of words: ")
+y = x.split()
+words = list(set(y))
+sorted_words = sorted(words)
+order = ' '.join(sorted_words)
+print(order)
